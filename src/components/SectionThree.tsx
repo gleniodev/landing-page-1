@@ -3,8 +3,7 @@ import Image from "next/image";
 import { CardBlue } from "./CardBlue";
 import { Container } from "./Container";
 
-import Rectangles from '@/assets/rectangles.png'
-import RectanglesRight from '@/assets/rectangles-right.png'
+import Rectangles from "@/assets/rectangles.png";
 
 export function SectionThree() {
   return (
@@ -27,11 +26,11 @@ export function SectionThree() {
             </p>
           </div>
           <div className="w-full flex items-center justify-center">
-
-            <Image 
-            className="absolute -left-[32px]" 
-            src={Rectangles} 
-            alt="Rectangles" />
+            <Image
+              className="absolute -left-[32px]"
+              src={Rectangles}
+              alt="Rectangles"
+            />
 
             <div className=" w-[800px] pt-16 flex items-center flex-wrap gap-8">
               <div className="w-full flex">
