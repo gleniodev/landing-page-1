@@ -15,7 +15,7 @@ export function Hero() {
             </h1>
             <p className="text-[24px] md:text-[20px] lg:text-[24px]">Oportunidades Expandidas</p>
             
-            <Image className="w-[344px] md:hidden" src={WomanImg} alt="Woman" />
+            <Image className="w-[344px] self-center md:hidden" src={WomanImg} alt="Woman" />
 
             <p className="text-[24px] mt-4 mb-12 md:mt-8 md:mb-8 md:text-[20px] lg:text-[24px] lg:mt-12 lg:mb-12 ">
               Seu aumento de salário é o trampolim para realizações financeiras

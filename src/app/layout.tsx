@@ -30,8 +30,8 @@ export default function RootLayout({
         <Header />
         <Hero/>
         <SectionOne />
-        {/* <SectionTwoo />
-        <SectionThree />
+        <SectionTwoo />
+        {/* <SectionThree />
         <SectionFour />
         <SectionFive /> */}
         {children}

@@ -5,16 +5,16 @@ import LinesDollarTop from "@/assets/linesDollarTop.png";
 
 export function SectionTwoo() {
   return (
-    <section className=" w-full pt-20 pb-20">
+    <section className="w-full lg:pt-20 lg:pb-20">
       <Container>
-        <div className="w-full flex flex-1 flex-col items-center justify-center gap-28">
+        <div className="w-full flex flex-1 flex-col items-center justify-center gap-20 lg:gap-28">
           <div>
-            <h2 className="text-[48px] font-bold">Agora Ficou Fácil!!!</h2>
+            <h2 className="text-[34px] lg:text-[48px] font-bold">Agora Ficou Fácil!!!</h2>
           </div>
           <div className="flex  w-full h-full gap-8">
             <div>
               <Image
-                className="relative self-end"
+                className="hidden md:self-end lg:block"
                 src={DollarImg}
                 alt="Woman"
               />
@@ -22,19 +22,19 @@ export function SectionTwoo() {
             <div>
               <div>
                 <Image
-                  className="relative self-end"
+                  className="hidden d:self-end md:block"
                   src={LinesDollarTop}
                   alt="Woman"
                 />
-                <div className="relative flex flex-col gap-8 max-w-[620px] pl-14 -inset-y-16">
-                  <p className=" text-2xl text-justify leading-10 ">
+                <div className="text-xl text-center relative flex flex-col gap-8 md:max-w-[620px] md:text-2xl md:text-justify md:leading-10 md:pl-14 md:-inset-y-16">
+                  <p>
                     Um importante projeto de lei foi aprovado recentemente,
                     concedendo um significativo aumento salarial para os
                     servidores. Essa iniciativa é um passo crucial em direção ao
                     reconhecimento e valorização da dedicação e esforço desses
                     profissionais.{" "}
                   </p>
-                  <p className=" text-2xl text-justify leading-10">
+                  <p>
                     Agora, você pode aproveitar as oportunidades disponíveis
                     para melhorar sua situação financeira e alcançar seus
                     objetivos. Descubra como você pode se beneficiar dessa
