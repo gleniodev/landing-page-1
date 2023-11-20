@@ -20,7 +20,7 @@ export function SectionTwoo() {
               />
             </div>
             <div>
-              <div >
+              <div>
                 <Image
                   className="relative self-end"
                   src={LinesDollarTop}
@@ -28,10 +28,11 @@ export function SectionTwoo() {
                 />
                 <div className="relative flex flex-col gap-8 max-w-[620px] pl-14 -inset-y-16">
                   <p className=" text-2xl text-justify leading-10 ">
-                    Um importante projeto de lei foi aprovado recentemente, concedendo
-                    um significativo aumento salarial para os servidores. Essa
-                    iniciativa é um passo crucial em direção ao reconhecimento e
-                    valorização da dedicação e esforço desses profissionais.{" "}
+                    Um importante projeto de lei foi aprovado recentemente,
+                    concedendo um significativo aumento salarial para os
+                    servidores. Essa iniciativa é um passo crucial em direção ao
+                    reconhecimento e valorização da dedicação e esforço desses
+                    profissionais.{" "}
                   </p>
                   <p className=" text-2xl text-justify leading-10">
                     Agora, você pode aproveitar as oportunidades disponíveis
