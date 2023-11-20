@@ -28,12 +28,12 @@ export default function RootLayout({
     <html lang="pt-br">
       <body className={poppins.className}>
         <Header />
-        <Hero/>
+        { <Hero/>/*
         <SectionOne />
         <SectionTwoo />
         <SectionThree />
         <SectionFour />
-        <SectionFive />
+        <SectionFive /> */}
         {children}
         </body>
     </html>
