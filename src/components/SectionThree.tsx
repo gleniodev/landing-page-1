@@ -40,7 +40,7 @@ export function SectionThree() {
                   <CardBlue
                     cardTitle={"Servidores Públicos"}
                     cardText={
-                      "Trabalhadores com carteira assinada de empresas privadas conveniadas"
+                      "Trabalhadores com cargos efetivos, pensionistas e inativos"
                     }
                   />
                 </div>
