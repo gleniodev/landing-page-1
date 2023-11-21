@@ -5,13 +5,13 @@ import LinesDollarTop from "@/assets/linesDollarTop.png";
 
 export function SectionTwoo() {
   return (
-    <section className="w-full lg:pt-20 lg:pb-20">
+    <section className="w-full lg:pt-20 lg:pb-0">
       <Container>
         <div className="w-full flex flex-1 flex-col items-center justify-center gap-20 lg:gap-28">
           <div>
             <h2 className="text-[34px] lg:text-[48px] font-bold">Agora Ficou Fácil!!!</h2>
           </div>
-          <div className="flex  w-full h-full gap-8">
+          <div className="flex w-full h-full gap-8 md:justify-center">
             <div>
               <Image
                 className="hidden md:self-end lg:block"
@@ -22,7 +22,7 @@ export function SectionTwoo() {
             <div>
               <div>
                 <Image
-                  className="hidden d:self-end md:block"
+                  className="hidden md:self-end md:block"
                   src={LinesDollarTop}
                   alt="Woman"
                 />

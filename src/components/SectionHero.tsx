@@ -6,10 +6,10 @@ import WomanImg from "@/assets/woman-hero-lg.png";
 
 export function Hero() {
   return (
-    <section className="w-full h-[980px] bg-img_bg_hero bg-no-repeat bg-start bg-cover md:h-[607px] md:bg-cover lg:md:h-[707px]">
+    <section className="w-full h-[980px] bg-img_bg_hero bg-no-repeat bg-start bg-cover md:h-[564px] md:bg-cover lg:h-[612px]">
       <Container>
-        <div className="w-full flex justify-between p-2 md:p-0 md:h-[607px] lg:md:h-[707px]">
-          <div className="flex flex-col flex-1 text-white mt-28 text-center gap-1 md:max-w-[298px] md:text-start md:mt-52 lg:max-w-[470px] lg:mt-52">
+        <div className="w-full flex justify-around p-2 md:p-0 md:h-[564px] lg:h-[612px]">
+          <div className="flex flex-col flex-1 text-white mt-28 text-center gap-0 md:max-w-[298px] md:text-start md:mt-40 lg:max-w-[470px] lg:mt-28">
             <h1 className=" font-semibold text-[38px] md:text-[32px] lg:text-[53px]">
               Salário Ampliado
             </h1>
@@ -28,7 +28,7 @@ export function Hero() {
             />            
           </div>
           <Image
-            className=" hidden md:block md:self-end md:w-[382px] lg:w-[506px] "
+            className=" hidden md:block md:self-end md:w-[382px] lg:w-[436px] "
             src={WomanImg}
             alt="Woman"
           />

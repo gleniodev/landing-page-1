@@ -26,14 +26,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br">
-      <body className={poppins.className}>
-        <Header />
-        <Hero/>
-        <SectionOne />
-        <SectionTwoo />
-        {/* <SectionThree /> */}
-        <SectionFour />
-        <SectionFive />
+      <body className={poppins.className}>        
         {children}
         </body>
     </html>

@@ -10,7 +10,7 @@ import Link from "next/link";
 export function SectionFive() {
   return (
     <section
-      className=" w-full bg-img_bg_sec5 bg-no-repeat bg-center bg-cover pt-10 pb-20 mt-20 lg:pt-20 lg:pb-20"
+      className=" w-full bg-img_bg_sec5 bg-no-repeat bg-center bg-cover pt-10 pb-20 mt-20 lg:pt-20 lg:pb-0"
       id="sec-5"
     >
       <Container>
@@ -22,7 +22,7 @@ export function SectionFive() {
           </div>
           <div className="w-full flex justify-center gap-10">
             <div className="w-full flex flex-col items-center justify-start gap-10 max-w-[570px] lg:items-start p-6">
-              <h1 className="font-semibold text-center text-white text-[20px] md:text-[32px] md:text-start lg:text-[34px] lg:leading-10 ">
+              <h1 className="font-semibold text-center text-white text-[20px] md:text-[32px] md:text-start lg:text-[32px] lg:leading-10 ">
                 Alcance seus objetivos de forma rápida e personalizada!
               </h1>
               <p className="text-[20px] leading-10 text-white md:text-2xl text-center md:text-start ">

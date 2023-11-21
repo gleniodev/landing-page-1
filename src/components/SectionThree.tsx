@@ -7,33 +7,34 @@ import Rectangles from "@/assets/rectangles.png";
 
 export function SectionThree() {
   return (
-    <section className="w-full pt-20 pb-20">
+    <section className="w-full pt-20 pb-20 md:p-20">
       <Container>
         <div className="flex flex-col">
-          <div className="flex flex-col gap-20 text-blue-700 ">
-            <h2 className="text-[48px] font-bold self-center">
+          <div className="flex flex-col gap-10 p-6 text-blue-700 md:p-0 md:gap-20 ">
+            <h2 className="text-[34px] lg:text-[48px] font-bold text-center">
               Como Funciona?
             </h2>
-            <p className="text-2xl text-justify leading-10">
+            <p className="text-2xl text-center leading-10 md:text-justify">
               O empréstimo consignado, frequentemente conhecido como crédito
               consignado, é uma modalidade de crédito em que as parcelas são
               automaticamente descontadas diretamente do contracheque, holerite
               ou benefício do solicitante.
             </p>
-            <p className="text-2xl text-justify leading-10">
+            <p className="text-2xl text-center leading-10 md:text-justify">
               Dentro desse contexto, têm a possibilidade de solicitar o crédito
               consignado os seguintes grupos:
             </p>
           </div>
           <div className="w-full flex items-center justify-center">
             <Image
-              className="absolute -left-[32px]"
+              className="hidden absolute md:block -left-[32px]"
               src={Rectangles}
               alt="Rectangles"
             />
 
-            <div className=" w-[800px] pt-16 flex items-center flex-wrap gap-8">
-              <div className="w-full flex">
+            <div className="lg:w-[800px] pt-16 flex items-center flex-wrap gap-8">
+              {/* WRAP CARDS */}
+              <div className="w-full flex flex-wrap gap-6 justify-center">
                 {/* CARD 1 */}
                 <div className="relative">
                   <CardBlue
@@ -45,7 +46,6 @@ export function SectionThree() {
                 </div>
                 {/* CARD 2 */}
                 <div className="relative">
-                  <div className="card-divider-vertical absolute h-full left-0"></div>
                   <CardBlue
                     cardTitle={"Militares das Forças"}
                     cardText={
@@ -53,10 +53,6 @@ export function SectionThree() {
                     }
                   />
                 </div>
-              </div>
-              <div className="card-divider-horizontal"></div>
-
-              <div className="w-full flex">
                 {/* CARD 3 */}
                 <div className="relative">
                   <CardBlue
@@ -64,10 +60,8 @@ export function SectionThree() {
                     cardText={"Aposentados e pensionistas do INSS"}
                   />
                 </div>
-
                 {/* CARD 4 */}
                 <div className="relative">
-                  <div className="card-divider-vertical absolute h-full left-0"></div>
                   <CardBlue
                     cardTitle={"BPC"}
                     cardText={
