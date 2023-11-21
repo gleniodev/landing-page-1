@@ -15,7 +15,7 @@ const poppins = Poppins({
   })
 
 export const metadata: Metadata = {
-  title: 'DeFigueiredo - Serviços Financeiros',
+  title: 'De Figueiredo - Serviços Financeiros',
   description: 'Descubra a solução financeira ideal para você com nosso empréstimo consignado.',
 }
 
