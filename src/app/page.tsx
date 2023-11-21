@@ -5,6 +5,7 @@ import { Hero } from "@/components/SectionHero";
 import { SectionOne } from "@/components/SectionOne";
 import { SectionThree } from "@/components/SectionThree";
 import { SectionTwoo } from "@/components/SectionTwoo";
+import { Footer } from "@/components/Footer";
 import Image from "next/image";
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <SectionThree />
       <SectionFour />
       <SectionFive />
+      <Footer />
     </>
   );
 }
