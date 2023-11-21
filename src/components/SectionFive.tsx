@@ -10,13 +10,13 @@ import Link from "next/link";
 export function SectionFive() {
   return (
     <section
-      className=" w-full bg-img_bg_sec5 bg-no-repeat bg-center bg-cover pt-10 pb-20 mt-20 lg:pt-20 lg:pb-0"
+      className=" w-full bg-img_bg_sec5 bg-no-repeat bg-center bg-cover pt-10 pb-20 mt-20 md:pt-0 lg:pb-0 md:h-[564px] lg:h-[580px]"
       id="sec-5"
     >
       <Container>
-        <div className="w-full flex flex-1 flex-col items-center justify-center gap-10 lg:gap-20">
+        <div className="w-full flex flex-1 flex-col items-center justify-between gap-10 md:gap-0 md:h-[564px] lg:h-[580px]">
           <div className="w-full text-center ">
-            <h2 className="text-[34px] text-white lg:text-[48px] font-bold text-center">
+            <h2 className="text-[34px] text-white lg:text-[48px] md:mt-6 font-bold text-center">
               Vamos conversar?
             </h2>
           </div>
@@ -44,7 +44,7 @@ export function SectionFive() {
                 </Link>
               </div>
             </div>
-            <Image className="hidden lg:block lg:self-end" src={MenImg} alt={"Homem"} />
+            <Image className="hidden lg:block lg:self-end lg:w-[300px] lg:h-auto" src={MenImg} alt={"Homem"} />
           </div>
         </div>
       </Container>
